@@ -38,7 +38,7 @@ do
     --per_gpu_train_batch_size 6 \
     --learning_rate 3e-5 \
     --num_train_epochs 1.0 \
-    --max_seq_length 512 \
+    --max_seq_length 384 \
     --doc_stride 128 \
     --output_dir "/home/vvb238/NLP/run_outputs/${SLURM_JOB_NAME}" \
     --overwrite_output_dir \
